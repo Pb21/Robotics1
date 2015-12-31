@@ -1,0 +1,6 @@
+<launch>
+	<node name="stage" pkg="stage_ros" type="stageros"
+	      args="$(find lab1)/world/playground.world" />
+	<node name="evader" pkg="stage_ros" type="stageros"
+	      args="$(find lab1)/world/playground.world" />
+</launch>
